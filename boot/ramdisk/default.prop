@@ -1,0 +1,47 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.oem_unlock_supported=true
+ro.zygote=zygote64_32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=quicken
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+debug.atrace.tags.enableflags=0
+ro.logdumpd.enabled=0
+ro.usb.id.midi=90BA
+ro.usb.id.midi_adb=90BB
+ro.usb.id.mtp=2281
+ro.usb.id.mtp_adb=2282
+ro.usb.id.ptp=2284
+ro.usb.id.ptp_adb=2283
+ro.usb.id.ums=2286
+ro.usb.id.ums_adb=2285
+ro.usb.vid=2970
+ro.com.android.dataroaming=false
+ro.com.android.mobiledata=false
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Mon Sep 24 16:06:00 WEST 2018
+ro.bootimage.build.date.utc=1537801560
+ro.bootimage.build.fingerprint=Wileyfox/Swift2/marmite:8.1.0/OPM5.171019.017/133121e2d7:user/release-keys
+persist.sys.usb.config=none
+

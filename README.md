@@ -1,0 +1,14 @@
+# marmite-user 8.1.0 OPM5.171019.017 133121e2d7 release-keys
+- manufacturer: wileyfox
+- platform: msm8937
+- codename: marmite
+- flavor: marmite-user
+- release: 8.1.0
+- id: OPM5.171019.017
+- incremental: 133121e2d7
+- tags: release-keys
+- fingerprint: Wileyfox/Swift2/marmite:8.1.0/OPM5.171019.017/133121e2d7:user/release-keys
+- is_ab: false
+- brand: Wileyfox
+- branch: marmite-user-8.1.0-OPM5.171019.017-133121e2d7-release-keys
+- repo: wileyfox_marmite_dump
